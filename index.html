@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тату Салон в Брянске</title>
+    <link rel="icon" href="./data/logo.svg" type="image/svg+xml">
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="navbar">
+        <!-- Логотип и гиперссылки слева -->
+        <div class="left-nav">
+            <a href="index.html">
+                <img src="./data/logo.svg" alt="Логотип Black Needle Studio">
+            </a>
+
+            <a href="price.html">Цены</a>
+            <a href="links.html">Контакты</a>
+        </div>
+        
+        <!-- Название в центре -->
+        <div class="center-nav">
+            <h1>Black Needle Studio</h1>
+        </div>
+        
+        <!-- Гиперссылки справа -->
+        <div class="right-nav">
+            <a href="history.html">История Салона</a>
+            <a href="feedback.html">Отзывы</a>
+        </div>
+    </div>
+</nav>  
+
+<div id="slogan-container">
+    <img src="./data/photo_1.jpg" alt="Left Image" class="slogan-image">
+    <div id="slogan">
+        <h2>Твоя история в тату</h2>
+    </div>
+    <img src="./data/photo_2.jpg" alt="Right Image" class="slogan-image">
+</div>
+
+<div class="services-container">
+    <div class="service-item">
+        <img src="./data/service1.jpg" alt="Service 1">
+        <h3>Татуировка портрет</h3>
+        <p>Индивидуальный портрет в стиле черной работы</p>
+        <a href="links.html" class="btn">Подробнее</a>
+    </div>
+    <div class="service-item">
+        <img src="./data/service2.jpg" alt="Service 2">
+        <h3>Минималистичное тату</h3>
+        <p>Стильные и лаконичные татуировки</p>
+        <a href="links.html" class="btn">Подробнее</a>
+    </div>
+    <div class="service-item">
+        <img src="./data/service3.jpg" alt="Service 3">
+        <h3>Акварельное тату</h3>
+        <p>Красочные татуировки в стиле акварели</p>
+        <a href="links.html" class="btn">Подробнее</a>
+    </div>
+    <div class="service-item">
+        <img src="./data/service4.jpg" alt="Service 4">
+        <h3>Черно-белое тату</h3>
+        <p>Классические черно-белые татуировки</p>
+        <a href="links.html" class="btn">Подробнее</a>
+    </div>
+</div>
+
+<div class="salon-story">
+    <div class="salon-story-content">
+        <img src="./data/salon.jpg" alt="Salon Image" class="salon-image">
+        <p>
+            Наш тату-салон зародился в трудные времена 90-х в Бежицком районе Брянска. С тех пор мы прошли долгий путь и за 15 лет работы успели завоевать доверие наших клиентов. 
+            
+            Мы гордимся своей командой опытных мастеров, которые создают уникальные и качественные татуировки. Наш салон расположен возле переезда, что делает его удобным для посещения. 
+            
+            Мы предлагаем широкий спектр услуг, включая индивидуальные дизайны, татуировки в разных стилях и консультации по уходу за тату. Мы стремимся обеспечить высокий уровень комфорта и удовлетворенности для каждого клиента.
+            
+            Приходите к нам, чтобы испытать профессиональный подход, уютную атмосферу и впечатляющие результаты. Мы с нетерпением ждем вас в нашем салоне!
+        </p>
+    </div>
+</div>
+
+
+<div class="reviews-container">
+    <div class="reviews-list">
+        <div class="review">
+            <img src="./data/avatar1.jpg" alt="Avatar" class="avatar">
+            <div class="review-content">
+                <h4>Алла Кожемякина</h4>
+                <p>Мне очень понравилась моя татуировка! Мастер профессионал, чувствуется опыт и креативность. Очень рада, что обратилась именно сюда.</p>
+            </div>
+        </div>
+        <div class="review">
+            <img src="./data/avatar2.jpg" alt="Avatar" class="avatar">
+            <div class="review-content">
+                <h4>Алина Изотова</h4>
+                <p>Прекрасное обслуживание и внимание к деталям! Татуировка получилась даже лучше, чем я ожидала. Рекомендую всем!</p>
+            </div>
+        </div>
+        <div class="review">
+            <img src="./data/avatar3.jpg" alt="Avatar" class="avatar">
+            <div class="review-content">
+                <h4>Ангелина Воробьева</h4>
+                <p>Приятная атмосфера и высокое качество работы. Уверена, что приду сюда еще не раз! Спасибо за отличную татуировку!</p>
+            </div>
+        </div>
+    </div>
+    <div class="review-form">
+        <h3>Оставить отзыв</h3>
+        <form id="review-form">
+            <label for="name">ФИО:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="service">Услуга:</label>
+            <select id="service" name="service" required>
+                <option value="">Выберите услугу</option>
+                <option value="Татуировка портрет">Татуировка портрет</option>
+                <option value="Минималистичное тату">Минималистичное тату</option>
+                <option value="Акварельное тату">Акварельное тату</option>
+                <option value="Черно-белое тату">Черно-белое тату</option>
+            </select>
+
+            <label for="review">Отзыв:</label>
+            <textarea id="review" name="review" required></textarea>
+
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form>
+        <div id="success-message" style="display: none;">Ваш отзыв отправлен!</div>
+    </div>
+</div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

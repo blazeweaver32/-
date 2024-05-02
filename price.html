@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Цены - Black Needle Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./data/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<nav>
+    <div class="navbar">
+        <!-- Логотип и гиперссылки слева -->
+        <div class="left-nav">
+            <a href="index.html">
+                <img src="./data/logo.svg" alt="Логотип Black Needle Studio">
+            </a>
+
+            <a href="price.html">Цены</a>
+            <a href="links.html">Контакты</a>
+        </div>
+        
+        <!-- Название в центре -->
+        <div class="center-nav">
+            <h1>Black Needle Studio</h1>
+        </div>
+        
+        <!-- Гиперссылки справа -->
+        <div class="right-nav">
+            <a href="history.html">История Салона</a>
+            <a href="feedback.html">Отзывы</a>
+        </div>
+    </div>
+</nav>  
+
+    <div class="content">
+        <h2 style="text-align: center;">Цены на услуги</h2>
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Описание</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Татуировка портрет</td>
+                    <td>Татуировка лица или фигуры человека по фотографии.</td>
+                    <td>5000 руб.</td>
+                </tr>
+                <tr>
+                    <td>Минималистичное тату</td>
+                    <td>Простые и лаконичные дизайны, акцент на детали.</td>
+                    <td>3000 руб.</td>
+                </tr>
+                <tr>
+                    <td>Акварельное тату</td>
+                    <td>Красочные и мягкие переходы, похожие на акварельную живопись.</td>
+                    <td>4000 руб.</td>
+                </tr>
+                <tr>
+                    <td>Черно-белое тату</td>
+                    <td>Классические черные и белые рисунки с четкими линиями.</td>
+                    <td>3500 руб.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button-container">
+            <button id="download-excel">Скачать таблицу в формате Excel</button>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
